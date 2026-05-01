@@ -51,6 +51,8 @@ $$LSI = \left( \frac{\text{Employment Rate}}{\text{Unemployment Rate} + 0.1} \ri
 *   **Historical Peak:** Ontario reached maximum resilience in the late 1980s due to record-high participation and low relative unemployment.
 *   **The 2020 Shock:** The Resilience Score dropped to a historical low of **1.77**, indicating a total breakdown in labour market stability during the pandemic.
 *   **Current Outlook:** As of 2025, the index sits at **25.3**, suggesting that while employment remains moderate, the labour market is currently more "fragile" than it was during the 2022-2023 recovery peak.
+<img width="806" height="500" alt="image" src="https://github.com/user-attachments/assets/4348e3a9-3a85-4f98-9637-f0d24aa179f7" />
+
 
 ---
 
