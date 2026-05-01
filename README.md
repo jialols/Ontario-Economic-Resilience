@@ -1,5 +1,5 @@
 # Ontario Economic Resilience Model 🇨🇦
-**A Multi-Language Data Pipeline & Predictive Indexing Project**
+**A Data Pipeline & Predictive Indexing Project ˙ᵕ˙**
 
 # Ontario-Economic-Resilience
 An end-to-end pipeline to model Ontario economic resilience uses data from Statistics Canada
