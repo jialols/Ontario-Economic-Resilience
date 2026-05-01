@@ -58,7 +58,7 @@ $$LSI = \left( \frac{\text{Employment Rate}}{\text{Unemployment Rate} + 0.1} \ri
 ## How to Run
 1. **Python:** Run `python scripts/ontario_resilience_analysis.py` to generate the processed CSVs and plots.
 2. **Java:** Compile and run `javac src/java/ResilienceCalculator.java && java ResilienceCalculator` to test specific data points.
-3. **SQL:** Now implement `sql/schema.sql` in your preferred RDBMS to initialize the data warehouse.
+3. **SQL:** Execute `sql/schema.sql` in your preferred RDBMS to initialize the data warehouse.
 
 ---
 **Author:** Jia Naidu
