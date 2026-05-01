@@ -1,10 +1,2 @@
  ଘ(੭ˊ꒳ˋ)੭✧ 
 
-Column,Description
-AgeGroup,"Demographic segment (e.g., ""15 years and over"", ""25 to 54 years"")."
-Year,The calendar year of the observation (1976–2025).
-Employment_Rate,Percentage of the population that is currently employed.
-Participation_Rate,Percentage of the population that is either working or actively looking.
-Unemployment_Rate,Percentage of the labor force that is without work.
-LSI,The raw calculation of labor stability: UnempRate+0.1EmpRate​×100PartRate​.
-Resilience_Score,The LSI value scaled to a 0–100 range for readability.
