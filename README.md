@@ -6,7 +6,7 @@ An end-to-end pipeline to model Ontario economic resilience uses data from Stati
 
 ## ٩(ˊᗜˋ*)و ♡ 
 ## Project Overview
-This project analyzes the long-term stability of the Ontario labour market using Statistics Canada datasets. It introduces the **Labour Stability Index (LSI)**—a custom metric designed to measure regional economic health by evaluating how employment levels and labour force participation interact during economic shocks.
+This project analyzes the long-term stability of the Ontario labour market using Statistics Canada datasets. It introduces the **Labour Stability Index (LSI)**, which is a custom metric designed to measure regional economic health by evaluating how employment levels and labour force participation interact during economic shocks.
 
 By integrating **Python** for data engineering, **SQL** for relational modelling, and **Java** for logic processing, this repository demonstrates a full-stack approach to data analysis.
 
@@ -15,6 +15,8 @@ By integrating **Python** for data engineering, **SQL** for relational modelling
 ## ദ്ദി(｡•̀ ᗜ<) 
 ## The Model: Labour Stability Index (LSI)
 Unlike simple unemployment metrics, the LSI evaluates the "anchoring" of a workforce. A resilient economy is one where participation remains high even when employment fluctuates.
+
+Following this equation:
 
 $$LSI = \left( \frac{\text{Employment Rate}}{\text{Unemployment Rate} + 0.1} \right) \times \frac{\text{Participation Rate}}{100}$$
 
