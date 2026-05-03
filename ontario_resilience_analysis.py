@@ -106,3 +106,16 @@ def plot_resilience_trend(csv_path: str,
 
     print(f"[SUCCESS] Plots saved to: {output_folder}")
     return output_folder
+
+if __name__ == "__main__":
+    args = parse_args()
+    output_csv = process_ontario_data(
+        raw_folder=args.raw_dir,
+        output_folder=args.output_dir,
+        output_filename=args.output_filename
+    )
+
+    # Generate plots automatically
+    from plot_resilience import plot_resilience_trend
+    plot_resilience_trend(output_csv)
+
