@@ -1,14 +1,9 @@
 # Ontario Economic Resilience Model 🇨🇦
-**A Data Pipeline & Predictive Indexing Project ˙ᵕ˙**
-
-# Ontario-Economic-Resilience
-An end-to-end pipeline to model Ontario economic resilience uses data from Statistics Canada
+**A Data Pipeline & Predictive Labour Stability Index Project˙ᵕ˙**
 
 ## ٩(ˊᗜˋ*)و ♡ 
 ## Project Overview
-This project analyzes the long-term stability of the Ontario labour market using Statistics Canada datasets. It introduces the **Labour Stability Index (LSI)**, which is a custom metric designed to measure regional economic health by evaluating how employment levels and labour force participation interact during economic shocks.
-
-By integrating **Python** for data engineering, **SQL** for relational modelling, and **Java** for logic processing, this repository demonstrates a full-stack approach to data analysis.
+This project models the long‑term stability of Ontario’s labour market using Statistics Canada Labour Force Survey (LFS) datasets. It introduces a custom **Labour Stability Index (LSI)** to quantify regional economic resilience by capturing how employment, unemployment, and labour force participation interact during economic shocks.
 
 ---
 
@@ -20,9 +15,11 @@ Following this equation:
 
 $$LSI = \left( \frac{\text{Employment Rate}}{\text{Unemployment Rate} + 0.1} \right) \times \frac{\text{Participation Rate}}{100}$$
 
-*   **Employment Rate:** Measures current economic output.
-*   **Participation Rate:** Measures labour force attachment and psychological "buy-in" to the economy.
-*   **Unemployment Rate:** Measures immediate labour market stress.
+- **Employment Rate:** Proxy for current economic output.  
+- **Participation Rate:** Captures attachment and “buy‑in” to the labour market.  
+- **Unemployment Rate:** Captures immediate labour market stress.  
+
+The raw LSI is then min–max scaled to a **Resilience Score (0–100)** for easier comparison across years and age groups.
 
 ---
 
