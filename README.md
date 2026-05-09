@@ -55,9 +55,9 @@ The raw LSI is then min–max scaled to a **Resilience Score (0–100)** for eas
 
 ## ദ്ദി ≧؂ ⠈≦)
 ## How to Run
-1. **Python:** Run `python scripts/ontario_resilience_analysis.py` to generate the processed CSVs and plots.
-2. **Java:** Compile and run `javac src/java/ResilienceCalculator.java && java ResilienceCalculator` to test specific data points.
-3. **SQL:** Execute `sql/schema.sql` in your preferred RDBMS to initialize the data warehouse.
+1. **Python:** Run `python scripts/ontario_resilience_analysis.py` to generate the cleaned datasets, calculated LSI values, and automated resilience plots.
+2. **Java:** Compile and run `javac src/java/ResilienceCalculator.java && java ResilienceCalculator` to test individual Labour Stability Index (LSI) calculations using the Java engine.
+3. **SQL:** Execute `sql/schema.sql` in your preferred database system to initialize the data warehouse schema and prepare tables for loading the processed data.
 
 ---
 **Author:** Jia Naidu
